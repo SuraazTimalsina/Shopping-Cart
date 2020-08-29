@@ -1,0 +1,41 @@
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+    height: 100vh;
+    margin: 0;
+}
+
+body{
+display: grid;
+grid-template-areas: "header" "main" "footer";
+grid-template-rows: 5rem 1fr 5rem;
+grid-template-columns: 1fr;
+height: 100vh;
+margin: 0;
+}
+
+header{
+    grid-area: header;
+    background-color: #203040;
+    color: #ffff;
+
+}
+
+header a{
+    color: #ffff;
+    display: flex;
+
+}
+ 
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+    background-color: #203040;
+    color: #ffff;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}

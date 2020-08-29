@@ -1,0 +1,30 @@
+.footer-navbar{
+    margin-top: 10px;
+    padding-top: 30px;
+
+    background-color: black;
+}
+
+.row{
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.col{
+    margin: auto;
+    padding: auto;
+}
+
+.h5{
+    text-align: right;
+    align-content:justify;
+}
+
+.ul{
+    text-align: justify;
+}
+
+.foter-content{
+    
+}

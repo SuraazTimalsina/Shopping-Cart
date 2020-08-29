@@ -1,0 +1,21 @@
+{
+    "products":[
+        {"_id":"dress1",
+        "title":"SUmmer",
+        "image":"..//assests/earphone.jpg",
+        "description":"This  is for Summer ",
+        "price":"19",
+        "available sizes":["XL","XXL","L","S","M"]
+    },
+    {
+        "_id":"dress2",
+        "title":"Winter",
+        "image":"..//assests/headphone.jpg",
+        "description":"This  is for Winter",
+        "price":"29",
+        "available sizes":["XL","XXL","L","S","M"]
+    
+    }
+    
+    ]
+}
