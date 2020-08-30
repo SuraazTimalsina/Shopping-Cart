@@ -1,7 +1,19 @@
 import React from 'react';
-import './Shop.css';
+import data from '../data.json'
+import Products from '../Products';
+import '..//pages/Shop.css';
 
-function Menu(){
+
+class Menu extends React.Component{
+    constructor(){
+        super();
+        this.state={
+            products:data.products,
+            size:"",
+            sort:"",
+        }
+    }
+    render(){
     return(
         <>
 <div className='grid-container'>
@@ -9,12 +21,22 @@ function Menu(){
         <a href='/'>Shopping Cart</a>
     </header>
     <main>
-        Product List
+        <div className='content'>
+            <div className='main'>
+                <Products products={this.state.products}/>
+            </div>
+            <div className='sidebar'>
+                Cart Items
+
+            </div>
+        </div>
     </main>
     <footer>
         All right Reserved
     </footer>
     </div>        </>
+    
     );
+}
 }
 export default Menu;

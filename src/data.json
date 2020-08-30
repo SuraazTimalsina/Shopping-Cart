@@ -1,0 +1,32 @@
+{
+    "products":[
+        { 
+            "_id":"dress1",
+        "title":"Dress 1",
+        "images":"..//assests/vibe.jpg",
+        "description":"Summer",
+        "Price":"Rs 500",
+        "Available Sizes":[ "XL", "XXL","S","M"]
+    },
+    { 
+        "_id":"dress2",
+    "title":"Dress 2",
+    "images":"..//assests/earphone.jpg",
+    "description":"Summer",
+    "Price":"Rs 500",
+    "Available Sizes":[ "XL", "XXL","S","M"]
+},
+
+{ 
+    "_id":"dress3",
+"title":"Dress 3",
+"images":"..//assests/headphone.jpg",
+"description":"Summer",
+"Price":"Rs 500",
+"Available Sizes":[ "XL", "XXL","S","M"]
+}
+    
+       
+
+    ]
+}
