@@ -1,21 +1,57 @@
 {
     "products":[
         {"_id":"dress1",
-        "title":"SUmmer",
-        "image":"..//assests/earphone.jpg",
+        "title":"Summer",
+        "image":"..//assests/dress1.jpg",
         "description":"This  is for Summer ",
-        "price":"19",
+        "price":"1000",
         "available sizes":["XL","XXL","L","S","M"]
     },
     {
         "_id":"dress2",
         "title":"Winter",
-        "image":"..//assests/headphone.jpg",
+        "image":"..//assests/dress2.jpg",
         "description":"This  is for Winter",
-        "price":"29",
+        "price":"1500",
         "available sizes":["XL","XXL","L","S","M"]
     
+    },
+    {
+        "_id":"dress3",
+        "title":"Mid-summer",
+        "image":"..//assests/dress3.jpg",
+        "description":"This  is for Winter",
+        "price":"2000",
+        "available sizes":["XL","XXL","L","S","M"]
+    
+    },
+    {
+        "_id":"dress4",
+        "title":"Mid-winter",
+        "image":"..//assests/dress4.jpg",
+        "description":"This  is for Winter",
+        "price":" Rs 2500",
+        "available sizes":["XL","XXL","L","S","M"]
+    },
+    {
+        "_id":"dress5",
+        "title":"Mid-winter",
+        "image":"..//assests/dress4.jpg",
+        "description":"This  is for Winter",
+        "price":"2500",
+        "available sizes":["XL","XXL","L","S","M"]
+    },{
+        "_id":"dress6",
+        "title":"Mid-winter",
+        "image":"..//assests/dress4.jpg",
+        "description":"This  is for Winter",
+        "price":"2500",
+        "available sizes":["XL","XXL","L","S","M"]
     }
+    
+    
+    
+    
     
     ]
 }
