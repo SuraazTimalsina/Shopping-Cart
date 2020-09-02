@@ -5,7 +5,7 @@
         "image":"..//assests/dress1.jpg",
         "description":"This  is for Summer ",
         "price":"1000",
-        "available sizes":["XL","XXL","L","S","M"]
+        "available sizes":["XL","XXL","L","M"]
     },
     {
         "_id":"dress2",
@@ -13,7 +13,7 @@
         "image":"..//assests/dress2.jpg",
         "description":"This  is for Winter",
         "price":"1500",
-        "available sizes":["XL","XXL","L","S","M"]
+        "available sizes":["XL","XXL","L","S"]
     
     },
     {
@@ -22,7 +22,7 @@
         "image":"..//assests/dress3.jpg",
         "description":"This  is for Winter",
         "price":"2000",
-        "available sizes":["XL","XXL","L","S","M"]
+        "available sizes":["XL","XXL","S","M"]
     
     },
     {
@@ -31,7 +31,7 @@
         "image":"..//assests/dress4.jpg",
         "description":"This  is for Winter",
         "price":" Rs 2500",
-        "available sizes":["XL","XXL","L","S","M"]
+        "available sizes":["XXL","L","S","M"]
     },
     {
         "_id":"dress5",
@@ -39,19 +39,15 @@
         "image":"..//assests/dress4.jpg",
         "description":"This  is for Winter",
         "price":"2500",
-        "available sizes":["XL","XXL","L","S","M"]
+        "available sizes":["XL","L","S","M"]
     },{
         "_id":"dress6",
         "title":"Mid-winter",
         "image":"..//assests/dress4.jpg",
         "description":"This  is for Winter",
         "price":"2500",
-        "available sizes":["XL","XXL","L","S","M"]
+        "available sizes":["XXL"]
     }
-    
-    
-    
-    
     
     ]
 }
